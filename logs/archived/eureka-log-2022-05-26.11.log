@@ -1,0 +1,55 @@
+2022-05-26 17:27:37,910 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-15] Changing status to UP
+2022-05-26 17:27:37,914 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8761 (http) with context path ''
+2022-05-26 17:27:37,915 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8761
+2022-05-26 17:27:37,928 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started EurekaServerApplication in 1.804 seconds (JVM running for 2.403)
+2022-05-26 17:27:37,938 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration [Thread-15] Started Eureka Server
+2022-05-26 17:27:40,328 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(9)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-26 17:27:40,328 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(9)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-05-26 17:27:40,329 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(9)-127.0.0.1] Completed initialization in 1 ms
+2022-05-26 17:27:47,024 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-PRODUCTOS/api-productos:1409dd4bf92f46a6556d997bb48c193f with status UP (replication=false)
+2022-05-26 17:27:47,597 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-PRODUCTOS/api-productos:1409dd4bf92f46a6556d997bb48c193f with status UP (replication=true)
+2022-05-26 17:28:09,655 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-PRODUCTOS/api-productos:5da2c1cc9aa6c5ecc9f3ea68939d52b3 with status UP (replication=false)
+2022-05-26 17:28:10,161 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-PRODUCTOS/api-productos:5da2c1cc9aa6c5ecc9f3ea68939d52b3 with status UP (replication=true)
+2022-05-26 17:28:21,926 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-PRODUCTOS/api-productos:ec259cd4e4e1998387f481dbb307c801 with status UP (replication=false)
+2022-05-26 17:28:22,434 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-PRODUCTOS/api-productos:ec259cd4e4e1998387f481dbb307c801 with status UP (replication=true)
+2022-05-26 17:28:37,916 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-26 17:28:44,615 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status UP (replication=false)
+2022-05-26 17:28:45,128 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status UP (replication=true)
+2022-05-26 17:29:37,920 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-26 17:30:37,924 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-26 17:31:37,929 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-26 17:32:37,934 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-26 17:33:37,935 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-05-26 17:34:37,940 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-26 17:34:42,136 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090 with status UP (replication=false)
+2022-05-26 17:34:42,649 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090 with status UP (replication=true)
+2022-05-26 17:35:37,945 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-26 17:36:37,946 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-26 17:37:37,947 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-05-26 17:38:37,948 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-26 17:39:22,379 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090 with status DOWN (replication=false)
+2022-05-26 17:39:22,615 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090 with status DOWN (replication=true)
+2022-05-26 17:39:25,425 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Cancelled instance API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090 (replication=false)
+2022-05-26 17:39:25,932 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] DS: Registry: cancel failed because Lease is not registered for: API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090
+2022-05-26 17:39:25,932 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-5] Not Found (Cancel): API-ZUUL-SERVER - 192.168.100.35:api-zuul-server:8090
+2022-05-26 17:39:25,933 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-12] The replication of task API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090:Cancel@localhost failed with response code 404
+2022-05-26 17:39:25,933 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-12] API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090:Cancel@localhost: missing entry.
+2022-05-26 17:39:30,564 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090 with status UP (replication=false)
+2022-05-26 17:39:31,079 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090 with status UP (replication=true)
+2022-05-26 17:39:37,951 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 2ms
+2022-05-26 17:40:37,964 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 2ms
+2022-05-26 17:41:37,971 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 5ms
+2022-05-26 17:42:11,861 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090 with status DOWN (replication=false)
+2022-05-26 17:42:12,377 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090 with status DOWN (replication=true)
+2022-05-26 17:42:14,905 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Cancelled instance API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090 (replication=false)
+2022-05-26 17:42:15,337 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] DS: Registry: cancel failed because Lease is not registered for: API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090
+2022-05-26 17:42:15,338 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-9] Not Found (Cancel): API-ZUUL-SERVER - 192.168.100.35:api-zuul-server:8090
+2022-05-26 17:42:15,338 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-18] The replication of task API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090:Cancel@localhost failed with response code 404
+2022-05-26 17:42:15,338 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-18] API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090:Cancel@localhost: missing entry.
+2022-05-26 17:42:37,891 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 8
+2022-05-26 17:42:37,976 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-26 17:42:48,156 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090 with status UP (replication=false)
+2022-05-26 17:42:48,664 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090 with status UP (replication=true)
+2022-05-26 17:43:37,977 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-05-26 17:44:37,981 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 3ms
+2022-05-26 17:44:55,196 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090 with status DOWN (replication=false)

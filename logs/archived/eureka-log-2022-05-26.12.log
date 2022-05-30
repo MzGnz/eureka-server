@@ -1,0 +1,59 @@
+2022-05-26 17:44:55,701 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090 with status DOWN (replication=true)
+2022-05-26 17:45:01,718 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090 with status UP (replication=false)
+2022-05-26 17:45:02,229 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090 with status UP (replication=true)
+2022-05-26 17:45:37,986 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-26 17:46:37,991 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 5ms
+2022-05-26 17:47:37,996 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 5ms
+2022-05-26 17:48:38,001 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-26 17:49:38,006 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 5ms
+2022-05-26 17:50:38,008 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-05-26 17:51:38,012 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 3ms
+2022-05-26 17:52:38,014 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-05-26 17:53:38,018 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 3ms
+2022-05-26 17:54:38,022 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-26 17:55:38,024 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 15ms
+2022-05-26 17:56:38,028 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 5ms
+2022-05-26 17:57:37,893 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 10
+2022-05-26 17:57:38,033 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 5ms
+2022-05-26 17:58:38,036 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 2ms
+2022-05-26 17:59:38,040 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-26 18:00:38,043 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 2ms
+2022-05-26 18:01:38,050 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 7ms
+2022-05-26 18:02:38,054 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 3ms
+2022-05-26 18:03:38,055 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-05-26 18:04:38,056 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-26 18:05:38,060 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 3ms
+2022-05-26 18:06:38,065 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 5ms
+2022-05-26 18:07:38,067 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-05-26 18:08:38,072 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 5ms
+2022-05-26 18:09:38,077 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-26 18:10:38,081 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-26 18:11:38,086 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-26 18:12:37,896 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 10
+2022-05-26 18:12:38,087 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-05-26 18:13:38,091 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-26 18:14:38,093 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-05-26 18:15:38,098 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-26 18:16:38,103 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-26 18:17:38,107 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-26 18:18:38,108 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-26 18:19:38,114 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 5ms
+2022-05-26 18:20:38,114 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-05-26 18:21:38,119 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-26 18:22:38,124 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-26 18:23:38,123 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 3ms
+2022-05-26 18:37:35,148 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-26 18:37:35,149 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [Eureka-EvictionTimer] Evicting 1 items (expired=3, evictionLimit=1)
+2022-05-26 18:37:35,149 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [Eureka-EvictionTimer] DS: Registry: expired lease for REST-ITEMS/192.168.100.35:rest-items:8002
+2022-05-26 18:37:35,149 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [Eureka-EvictionTimer] Cancelled instance REST-ITEMS/192.168.100.35:rest-items:8002 (replication=false)
+2022-05-26 18:37:42,547 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] DS: Registry: lease doesn't exist, registering resource: REST-ITEMS - 192.168.100.35:rest-items:8002
+2022-05-26 18:37:42,548 WARN com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-6] Not Found (Renew): REST-ITEMS - 192.168.100.35:rest-items:8002
+2022-05-26 18:37:42,557 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status UP (replication=false)
+2022-05-26 18:37:43,070 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status UP (replication=true)
+2022-05-26 19:50:37,596 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-05-26 19:50:37,597 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [Eureka-EvictionTimer] Evicting 1 items (expired=4, evictionLimit=1)
+2022-05-26 19:50:37,597 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [Eureka-EvictionTimer] DS: Registry: expired lease for API-PRODUCTOS/api-productos:ec259cd4e4e1998387f481dbb307c801
+2022-05-26 19:50:37,597 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [Eureka-EvictionTimer] Cancelled instance API-PRODUCTOS/api-productos:ec259cd4e4e1998387f481dbb307c801 (replication=false)
+2022-05-26 19:55:35,540 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] DS: Registry: lease doesn't exist, registering resource: API-PRODUCTOS - api-productos:ec259cd4e4e1998387f481dbb307c801
+2022-05-26 19:55:35,541 WARN com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-4] Not Found (Renew): API-PRODUCTOS - api-productos:ec259cd4e4e1998387f481dbb307c801
+2022-05-26 19:55:35,548 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-PRODUCTOS/api-productos:ec259cd4e4e1998387f481dbb307c801 with status UP (replication=false)

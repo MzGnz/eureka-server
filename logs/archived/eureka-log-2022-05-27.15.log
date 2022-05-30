@@ -1,0 +1,7 @@
+2022-05-27 23:59:12,742 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-PRODUCTOS/api-productos:e68bb2f7c5f260bbc2cf32e0923c96dd with status UP (replication=false)
+2022-05-27 23:59:13,318 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-PRODUCTOS/api-productos:e68bb2f7c5f260bbc2cf32e0923c96dd with status UP (replication=true)
+2022-05-27 23:59:25,830 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status UP (replication=false)
+2022-05-27 23:59:26,337 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status UP (replication=true)
+2022-05-27 23:59:46,010 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-GATEWAY-SERVER/192.168.100.35:api-gateway-server:8090 with status UP (replication=false)
+2022-05-27 23:59:46,523 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-GATEWAY-SERVER/192.168.100.35:api-gateway-server:8090 with status UP (replication=true)
+2022-05-27 23:59:52,308 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms

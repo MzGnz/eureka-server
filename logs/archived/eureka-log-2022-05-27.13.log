@@ -1,0 +1,54 @@
+2022-05-27 23:41:11,796 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 5ms
+2022-05-27 23:42:11,800 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-27 23:43:05,669 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-PRODUCTOS/api-productos:06b2d7a9e1e5ac4efdb72b6d1844dbf9 with status UP (replication=false)
+2022-05-27 23:43:06,182 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-PRODUCTOS/api-productos:06b2d7a9e1e5ac4efdb72b6d1844dbf9 with status UP (replication=true)
+2022-05-27 23:43:06,935 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status UP (replication=false)
+2022-05-27 23:43:07,446 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status UP (replication=true)
+2022-05-27 23:43:11,878 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 2ms
+2022-05-27 23:44:11,882 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-27 23:45:11,887 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 5ms
+2022-05-27 23:45:18,563 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status DOWN (replication=false)
+2022-05-27 23:45:19,076 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status DOWN (replication=true)
+2022-05-27 23:46:04,154 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status UP (replication=false)
+2022-05-27 23:46:04,663 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status UP (replication=true)
+2022-05-27 23:46:11,892 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-27 23:47:11,897 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 5ms
+2022-05-27 23:47:15,032 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status DOWN (replication=false)
+2022-05-27 23:47:15,545 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status DOWN (replication=true)
+2022-05-27 23:47:18,072 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Cancelled instance REST-ITEMS/192.168.100.35:rest-items:8002 (replication=false)
+2022-05-27 23:47:18,581 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] DS: Registry: cancel failed because Lease is not registered for: REST-ITEMS/192.168.100.35:rest-items:8002
+2022-05-27 23:47:18,581 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-4] Not Found (Cancel): REST-ITEMS - 192.168.100.35:rest-items:8002
+2022-05-27 23:47:18,581 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-13] The replication of task REST-ITEMS/192.168.100.35:rest-items:8002:Cancel@localhost failed with response code 404
+2022-05-27 23:47:18,581 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-13] REST-ITEMS/192.168.100.35:rest-items:8002:Cancel@localhost: missing entry.
+2022-05-27 23:47:18,690 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status UP (replication=false)
+2022-05-27 23:47:19,198 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status UP (replication=true)
+2022-05-27 23:47:34,147 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status DOWN (replication=false)
+2022-05-27 23:47:34,654 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status DOWN (replication=true)
+2022-05-27 23:47:37,165 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Cancelled instance REST-ITEMS/192.168.100.35:rest-items:8002 (replication=false)
+2022-05-27 23:47:37,674 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] DS: Registry: cancel failed because Lease is not registered for: REST-ITEMS/192.168.100.35:rest-items:8002
+2022-05-27 23:47:37,675 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-2] Not Found (Cancel): REST-ITEMS - 192.168.100.35:rest-items:8002
+2022-05-27 23:47:37,675 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-7] The replication of task REST-ITEMS/192.168.100.35:rest-items:8002:Cancel@localhost failed with response code 404
+2022-05-27 23:47:37,675 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-7] REST-ITEMS/192.168.100.35:rest-items:8002:Cancel@localhost: missing entry.
+2022-05-27 23:47:39,793 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status UP (replication=false)
+2022-05-27 23:47:40,300 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status UP (replication=true)
+2022-05-27 23:48:11,900 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 2ms
+2022-05-27 23:48:42,549 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status DOWN (replication=false)
+2022-05-27 23:48:43,062 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status DOWN (replication=true)
+2022-05-27 23:48:45,588 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Cancelled instance REST-ITEMS/192.168.100.35:rest-items:8002 (replication=false)
+2022-05-27 23:48:46,091 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] DS: Registry: cancel failed because Lease is not registered for: REST-ITEMS/192.168.100.35:rest-items:8002
+2022-05-27 23:48:46,091 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-2] Not Found (Cancel): REST-ITEMS - 192.168.100.35:rest-items:8002
+2022-05-27 23:48:46,091 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-6] The replication of task REST-ITEMS/192.168.100.35:rest-items:8002:Cancel@localhost failed with response code 404
+2022-05-27 23:48:46,091 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-6] REST-ITEMS/192.168.100.35:rest-items:8002:Cancel@localhost: missing entry.
+2022-05-27 23:48:46,366 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status UP (replication=false)
+2022-05-27 23:48:46,874 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status UP (replication=true)
+2022-05-27 23:49:11,906 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 5ms
+2022-05-27 23:50:11,797 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 5
+2022-05-27 23:50:11,911 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 5ms
+2022-05-27 23:51:11,914 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 3ms
+2022-05-27 23:52:11,918 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-27 23:53:11,923 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-27 23:54:11,924 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-05-27 23:55:11,930 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 5ms
+2022-05-27 23:56:11,934 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-27 23:56:23,108 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status DOWN (replication=false)
+2022-05-27 23:56:23,617 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status DOWN (replication=true)

@@ -1,0 +1,77 @@
+2022-05-30 12:02:29,001 WARN zipkin2.reporter.AsyncReporter$BoundedAsyncReporter [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] Dropped 3 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused; nested exception is java.net.ConnectException: Connection refused)
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused; nested exception is java.net.ConnectException: Connection refused
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.cloud.sleuth.zipkin2.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateWrapper.java:67)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:660)
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender.post(RestTemplateSender.java:51)
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender.lambda$new$0(RestTemplateSender.java:44)
+	at org.springframework.cloud.sleuth.zipkin2.HttpSender.post(HttpSender.java:137)
+	at org.springframework.cloud.sleuth.zipkin2.HttpSender$HttpPostCall.doExecute(HttpSender.java:150)
+	at org.springframework.cloud.sleuth.zipkin2.HttpSender$HttpPostCall.doExecute(HttpSender.java:140)
+	at zipkin2.Call$Base.execute(Call.java:391)
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299)
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:246)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:351)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:373)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 11 common frames omitted
+2022-05-30 12:02:44,465 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-GATEWAY-SERVER/192.168.100.35:api-gateway-server:8090 with status UP (replication=false)
+2022-05-30 12:02:44,978 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-GATEWAY-SERVER/192.168.100.35:api-gateway-server:8090 with status UP (replication=true)
+2022-05-30 12:02:59,939 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Registered instance API-TARJETAS/api-tarjetas:961495f945911dd4a3002896ed201209 with status DOWN (replication=false)
+2022-05-30 12:03:00,445 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-TARJETAS/api-tarjetas:961495f945911dd4a3002896ed201209 with status DOWN (replication=true)
+2022-05-30 12:03:03,195 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Cancelled instance API-TARJETAS/api-tarjetas:961495f945911dd4a3002896ed201209 (replication=false)
+2022-05-30 12:03:03,701 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] DS: Registry: cancel failed because Lease is not registered for: API-TARJETAS/api-tarjetas:961495f945911dd4a3002896ed201209
+2022-05-30 12:03:03,701 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-5] Not Found (Cancel): API-TARJETAS - api-tarjetas:961495f945911dd4a3002896ed201209
+2022-05-30 12:03:03,702 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-14] The replication of task API-TARJETAS/api-tarjetas:961495f945911dd4a3002896ed201209:Cancel@localhost failed with response code 404
+2022-05-30 12:03:03,702 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-14] API-TARJETAS/api-tarjetas:961495f945911dd4a3002896ed201209:Cancel@localhost: missing entry.
+2022-05-30 12:03:06,455 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-TARJETAS/api-tarjetas:a45f5073eff130cc63b612431fc2b98b with status UP (replication=false)
+2022-05-30 12:03:06,970 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-TARJETAS/api-tarjetas:a45f5073eff130cc63b612431fc2b98b with status UP (replication=true)
+2022-05-30 12:03:19,331 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-30 12:04:19,331 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-30 12:05:19,331 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-30 12:06:19,332 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-05-30 12:07:19,335 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 3ms
+2022-05-30 12:08:19,337 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 2ms
+2022-05-30 12:08:58,086 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-TARJETAS/api-tarjetas:a45f5073eff130cc63b612431fc2b98b with status DOWN (replication=false)
+2022-05-30 12:08:58,595 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-TARJETAS/api-tarjetas:a45f5073eff130cc63b612431fc2b98b with status DOWN (replication=true)
+2022-05-30 12:09:00,146 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-GATEWAY-SERVER/192.168.100.35:api-gateway-server:8090 with status DOWN (replication=false)
+2022-05-30 12:09:00,653 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-GATEWAY-SERVER/192.168.100.35:api-gateway-server:8090 with status DOWN (replication=true)
+2022-05-30 12:09:01,338 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Cancelled instance API-TARJETAS/api-tarjetas:a45f5073eff130cc63b612431fc2b98b (replication=false)
+2022-05-30 12:09:01,848 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] DS: Registry: cancel failed because Lease is not registered for: API-TARJETAS/api-tarjetas:a45f5073eff130cc63b612431fc2b98b
+2022-05-30 12:09:01,848 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-8] Not Found (Cancel): API-TARJETAS - api-tarjetas:a45f5073eff130cc63b612431fc2b98b
+2022-05-30 12:09:01,849 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-0] The replication of task API-TARJETAS/api-tarjetas:a45f5073eff130cc63b612431fc2b98b:Cancel@localhost failed with response code 404
+2022-05-30 12:09:01,849 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-0] API-TARJETAS/api-tarjetas:a45f5073eff130cc63b612431fc2b98b:Cancel@localhost: missing entry.
+2022-05-30 12:09:02,448 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(19)-127.0.0.1] Application shutdown requested.
+2022-05-30 12:09:02,449 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(19)-127.0.0.1] Unregistering application API-EUREKA-SERVER with eureka with status DOWN
+2022-05-30 12:09:02,466 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [RMI TCP Connection(19)-127.0.0.1] Shutting down Eureka Server..
+2022-05-30 12:09:02,503 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(19)-127.0.0.1] Shutting down ...
+2022-05-30 12:09:02,595 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(19)-127.0.0.1] Shut down
+2022-05-30 12:09:02,595 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [RMI TCP Connection(19)-127.0.0.1] Eureka Service is now shutdown...
+2022-05-30 12:09:02,595 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(19)-127.0.0.1] Shutting down ...
+2022-05-30 12:09:02,627 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(19)-127.0.0.1] Shut down
+2022-05-30 12:09:03,035 INFO org.springframework.cloud.sleuth.autoconfig.zipkin2.ZipkinAutoConfiguration$1 [Thread-5] Flushing remaining spans on shutdown
+2022-05-30 12:09:03,038 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(19)-127.0.0.1] Shutting down DiscoveryClient ...
+2022-05-30 12:09:03,050 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(19)-127.0.0.1] Completed shut down of DiscoveryClient
+2022-05-30 12:36:48,756 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting EurekaServerApplication using Java 17.0.2 on MacBook-Pro-de-Javier.local with PID 4557 (/Users/javieralejandrocalixtocano/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/EurekaServer/target/classes started by javieralejandrocalixtocano in /Users/javieralejandrocalixtocano/Documents/workspace-spring-tool-suite-4-4.14.1.RELEASE/EurekaServer)
+2022-05-30 12:36:48,760 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-05-30 12:36:48,781 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-30 12:36:48,781 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-30 12:36:49,297 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=756033f0-a215-357d-83e1-ebf1ff4706ed

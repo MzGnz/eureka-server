@@ -1,0 +1,53 @@
+2022-05-27 01:08:57,937 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 8ms
+2022-05-27 01:09:57,938 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 3ms
+2022-05-27 01:10:57,941 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-27 01:11:57,942 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-05-27 01:12:57,943 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 2ms
+2022-05-27 01:13:57,943 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 2ms
+2022-05-27 01:14:57,943 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-05-27 01:15:57,943 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-05-27 01:16:57,947 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-27 01:17:57,947 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-05-27 01:18:57,948 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 2ms
+2022-05-27 01:19:57,954 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 7ms
+2022-05-27 01:20:57,954 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-05-27 01:21:57,957 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-27 01:22:57,674 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 10
+2022-05-27 01:22:57,965 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 9ms
+2022-05-27 01:23:57,966 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 1ms
+2022-05-27 01:24:57,973 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 8ms
+2022-05-27 01:25:57,976 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 4ms
+2022-05-27 01:26:57,987 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 3ms
+2022-05-27 01:27:09,121 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-11] Registered instance API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090 with status DOWN (replication=false)
+2022-05-27 01:27:09,632 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090 with status DOWN (replication=true)
+2022-05-27 01:27:12,178 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Cancelled instance API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090 (replication=false)
+2022-05-27 01:27:12,681 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] DS: Registry: cancel failed because Lease is not registered for: API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090
+2022-05-27 01:27:12,682 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-3] Not Found (Cancel): API-ZUUL-SERVER - 192.168.100.35:api-zuul-server:8090
+2022-05-27 01:27:12,682 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-0] The replication of task API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090:Cancel@localhost failed with response code 404
+2022-05-27 01:27:12,682 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-0] API-ZUUL-SERVER/192.168.100.35:api-zuul-server:8090:Cancel@localhost: missing entry.
+2022-05-27 01:27:14,484 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-PRODUCTOS/api-productos:1409dd4bf92f46a6556d997bb48c193f with status DOWN (replication=false)
+2022-05-27 01:27:14,989 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-PRODUCTOS/api-productos:1409dd4bf92f46a6556d997bb48c193f with status DOWN (replication=true)
+2022-05-27 01:27:17,733 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-11] Cancelled instance API-PRODUCTOS/api-productos:1409dd4bf92f46a6556d997bb48c193f (replication=false)
+2022-05-27 01:27:18,221 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-PRODUCTOS/api-productos:5da2c1cc9aa6c5ecc9f3ea68939d52b3 with status DOWN (replication=false)
+2022-05-27 01:27:18,228 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status DOWN (replication=false)
+2022-05-27 01:27:18,244 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] DS: Registry: cancel failed because Lease is not registered for: API-PRODUCTOS/api-productos:1409dd4bf92f46a6556d997bb48c193f
+2022-05-27 01:27:18,244 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-3] Not Found (Cancel): API-PRODUCTOS - api-productos:1409dd4bf92f46a6556d997bb48c193f
+2022-05-27 01:27:18,245 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-PRODUCTOS/api-productos:5da2c1cc9aa6c5ecc9f3ea68939d52b3 with status DOWN (replication=true)
+2022-05-27 01:27:18,245 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance REST-ITEMS/192.168.100.35:rest-items:8002 with status DOWN (replication=true)
+2022-05-27 01:27:18,245 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-5] The replication of task API-PRODUCTOS/api-productos:1409dd4bf92f46a6556d997bb48c193f:Cancel@localhost failed with response code 404
+2022-05-27 01:27:18,245 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-5] API-PRODUCTOS/api-productos:1409dd4bf92f46a6556d997bb48c193f:Cancel@localhost: missing entry.
+2022-05-27 01:27:21,283 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Cancelled instance REST-ITEMS/192.168.100.35:rest-items:8002 (replication=false)
+2022-05-27 01:27:21,454 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Cancelled instance API-PRODUCTOS/api-productos:5da2c1cc9aa6c5ecc9f3ea68939d52b3 (replication=false)
+2022-05-27 01:27:21,795 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] DS: Registry: cancel failed because Lease is not registered for: REST-ITEMS/192.168.100.35:rest-items:8002
+2022-05-27 01:27:21,796 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-1] Not Found (Cancel): REST-ITEMS - 192.168.100.35:rest-items:8002
+2022-05-27 01:27:21,796 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] DS: Registry: cancel failed because Lease is not registered for: API-PRODUCTOS/api-productos:5da2c1cc9aa6c5ecc9f3ea68939d52b3
+2022-05-27 01:27:21,796 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-1] Not Found (Cancel): API-PRODUCTOS - api-productos:5da2c1cc9aa6c5ecc9f3ea68939d52b3
+2022-05-27 01:27:21,797 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-2] The replication of task REST-ITEMS/192.168.100.35:rest-items:8002:Cancel@localhost failed with response code 404
+2022-05-27 01:27:21,797 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-2] REST-ITEMS/192.168.100.35:rest-items:8002:Cancel@localhost: missing entry.
+2022-05-27 01:27:21,797 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-2] The replication of task API-PRODUCTOS/api-productos:5da2c1cc9aa6c5ecc9f3ea68939d52b3:Cancel@localhost failed with response code 404
+2022-05-27 01:27:21,797 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-2] API-PRODUCTOS/api-productos:5da2c1cc9aa6c5ecc9f3ea68939d52b3:Cancel@localhost: missing entry.
+2022-05-27 01:27:21,897 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-PRODUCTOS/api-productos:ec259cd4e4e1998387f481dbb307c801 with status DOWN (replication=false)
+2022-05-27 01:27:22,403 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-2] Registered instance API-PRODUCTOS/api-productos:ec259cd4e4e1998387f481dbb307c801 with status DOWN (replication=true)
+2022-05-27 01:27:25,130 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Cancelled instance API-PRODUCTOS/api-productos:ec259cd4e4e1998387f481dbb307c801 (replication=false)
+2022-05-27 01:27:25,633 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] DS: Registry: cancel failed because Lease is not registered for: API-PRODUCTOS/api-productos:ec259cd4e4e1998387f481dbb307c801
+2022-05-27 01:27:25,633 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-10] Not Found (Cancel): API-PRODUCTOS - api-productos:ec259cd4e4e1998387f481dbb307c801
